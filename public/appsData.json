@@ -1,0 +1,662 @@
+[
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/733/733558.png",
+        "title": "TaskMate - Productivity",
+        "companyName": "BluePeak Technologies",
+        "id": 4,
+        "description": "TaskMate helps you organize your day efficiently. Create to-do lists, set reminders, track progress, and manage both personal and professional tasks. With smart notifications and progress insights, you can stay productive and never miss a deadline.",
+        "size": 55000000,
+        "reviews": 210000,
+        "ratingAvg": 4.6,
+        "downloads": 5000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 8000
+            },
+            {
+                "name": "2 star",
+                "count": 5000
+            },
+            {
+                "name": "3 star",
+                "count": 12000
+            },
+            {
+                "name": "4 star",
+                "count": 45000
+            },
+            {
+                "name": "5 star",
+                "count": 140000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/124/124010.png",
+        "title": "FitJourney - Fitness",
+        "companyName": "PulseFit Labs",
+        "id": 5,
+        "description": "FitJourney is your AI-powered fitness companion. Track workouts, calories, and health goals. Get personalized coaching, progress tracking, and challenge friends. Achieve your fitness milestones with smart insights and an engaging interface.",
+        "size": 88000000,
+        "reviews": 320000,
+        "ratingAvg": 4.7,
+        "downloads": 10000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 7000
+            },
+            {
+                "name": "2 star",
+                "count": 9000
+            },
+            {
+                "name": "3 star",
+                "count": 15000
+            },
+            {
+                "name": "4 star",
+                "count": 60000
+            },
+            {
+                "name": "5 star",
+                "count": 229000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png",
+        "title": "SnapNote - Smart Notes",
+        "companyName": "VisionByte",
+        "id": 6,
+        "description": "SnapNote scans your notes, converts handwriting to digital text, and securely stores them in the cloud. Perfect for students and professionals, it offers search, tagging, and synchronization across devices for easy access anytime.",
+        "size": 72000000,
+        "reviews": 180000,
+        "ratingAvg": 4.4,
+        "downloads": 8000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 9000
+            },
+            {
+                "name": "2 star",
+                "count": 7000
+            },
+            {
+                "name": "3 star",
+                "count": 25000
+            },
+            {
+                "name": "4 star",
+                "count": 45000
+            },
+            {
+                "name": "5 star",
+                "count": 94000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/681/681611.png",
+        "title": "TripEase - Travel",
+        "companyName": "Wanderly Ltd.",
+        "id": 7,
+        "description": "TripEase makes travel planning simple. Discover destinations, book flights and hotels, and organize itineraries. Receive AI-driven recommendations, offline access, and real-time updates to make every trip stress-free and memorable.",
+        "size": 95000000,
+        "reviews": 600000,
+        "ratingAvg": 4.8,
+        "downloads": 12000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 9000
+            },
+            {
+                "name": "2 star",
+                "count": 8000
+            },
+            {
+                "name": "3 star",
+                "count": 25000
+            },
+            {
+                "name": "4 star",
+                "count": 120000
+            },
+            {
+                "name": "5 star",
+                "count": 438000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+        "title": "StreamFlow - Watch Together",
+        "companyName": "NovaPlay Studios",
+        "id": 8,
+        "description": "StreamFlow lets you watch movies and shows with friends in real-time. Chat, react, and share moments together. Discover trending content, synchronized streaming, and enjoy a seamless entertainment experience from anywhere.",
+        "size": 130000000,
+        "reviews": 950000,
+        "ratingAvg": 4.2,
+        "downloads": 30000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 25000
+            },
+            {
+                "name": "2 star",
+                "count": 18000
+            },
+            {
+                "name": "3 star",
+                "count": 70000
+            },
+            {
+                "name": "4 star",
+                "count": 200000
+            },
+            {
+                "name": "5 star",
+                "count": 637000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384063.png",
+        "title": "TuneWave - Music & Podcasts",
+        "companyName": "HarmoniX Media",
+        "id": 9,
+        "description": "TuneWave provides uninterrupted music and podcast streaming. Discover artists, build playlists, and enjoy high-quality audio. Smart recommendations and offline playback make it perfect for music lovers everywhere.",
+        "size": 115000000,
+        "reviews": 1200000,
+        "ratingAvg": 4.5,
+        "downloads": 60000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40000
+            },
+            {
+                "name": "2 star",
+                "count": 30000
+            },
+            {
+                "name": "3 star",
+                "count": 90000
+            },
+            {
+                "name": "4 star",
+                "count": 240000
+            },
+            {
+                "name": "5 star",
+                "count": 860000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/906/906361.png",
+        "title": "EduVerse - Learning",
+        "companyName": "NextLearn Systems",
+        "id": 10,
+        "description": "EduVerse is an interactive online learning platform. Personalized course paths, quizzes, and AI insights help learners achieve their goals. Track progress, earn achievements, and access content anytime, anywhere.",
+        "size": 160000000,
+        "reviews": 650000,
+        "ratingAvg": 4.6,
+        "downloads": 20000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15000
+            },
+            {
+                "name": "2 star",
+                "count": 10000
+            },
+            {
+                "name": "3 star",
+                "count": 30000
+            },
+            {
+                "name": "4 star",
+                "count": 140000
+            },
+            {
+                "name": "5 star",
+                "count": 455000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+        "title": "DailyQuote - Inspiration",
+        "companyName": "InspireSoft",
+        "id": 11,
+        "description": "DailyQuote delivers motivational quotes every day. Share with friends, save favorites, and set reminders to inspire yourself regularly. Cultivate positivity and stay motivated with an endless stream of inspirational thoughts.",
+        "size": 28000000,
+        "reviews": 150000,
+        "ratingAvg": 4.3,
+        "downloads": 4000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 5000
+            },
+            {
+                "name": "2 star",
+                "count": 4000
+            },
+            {
+                "name": "3 star",
+                "count": 18000
+            },
+            {
+                "name": "4 star",
+                "count": 47000
+            },
+            {
+                "name": "5 star",
+                "count": 76000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png",
+        "title": "PhotoForge - Photo Editor",
+        "companyName": "Pixelytics",
+        "id": 12,
+        "description": "PhotoForge offers professional photo editing with AI filters, batch processing, and advanced tools. Enhance images, apply artistic effects, and share creations directly from the app. Ideal for photographers and hobbyists alike.",
+        "size": 134000000,
+        "reviews": 980000,
+        "ratingAvg": 4.7,
+        "downloads": 25000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 19000
+            },
+            {
+                "name": "2 star",
+                "count": 14000
+            },
+            {
+                "name": "3 star",
+                "count": 50000
+            },
+            {
+                "name": "4 star",
+                "count": 240000
+            },
+            {
+                "name": "5 star",
+                "count": 657000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+        "title": "MindCalm - Meditation",
+        "companyName": "ZenPath Inc.",
+        "id": 13,
+        "description": "MindCalm guides you through meditation and relaxation exercises. Reduce stress, improve focus, and enhance mindfulness with audio sessions, ambient sounds, and personalized meditation paths.",
+        "size": 97000000,
+        "reviews": 500000,
+        "ratingAvg": 4.9,
+        "downloads": 10000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4000
+            },
+            {
+                "name": "2 star",
+                "count": 3000
+            },
+            {
+                "name": "3 star",
+                "count": 10000
+            },
+            {
+                "name": "4 star",
+                "count": 60000
+            },
+            {
+                "name": "5 star",
+                "count": 423000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/3048/3048122.png",
+        "title": "BudgetPro - Finance",
+        "companyName": "FinSync Labs",
+        "id": 14,
+        "description": "BudgetPro helps you manage income, expenses, and savings with detailed insights. Track spending, set budgets, and visualize your finances with charts and reports to make smarter money decisions.",
+        "size": 64000000,
+        "reviews": 350000,
+        "ratingAvg": 4.6,
+        "downloads": 9000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10000
+            },
+            {
+                "name": "2 star",
+                "count": 8000
+            },
+            {
+                "name": "3 star",
+                "count": 15000
+            },
+            {
+                "name": "4 star",
+                "count": 60000
+            },
+            {
+                "name": "5 star",
+                "count": 257000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/906/906334.png",
+        "title": "LangFlow - Language Learning",
+        "companyName": "LinguaTech",
+        "id": 15,
+        "description": "LangFlow provides AI-powered language learning with real-time pronunciation feedback. Practice speaking, reading, and writing with interactive exercises, quizzes, and daily challenges to improve fluency quickly.",
+        "size": 110000000,
+        "reviews": 420000,
+        "ratingAvg": 4.4,
+        "downloads": 17000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 12000
+            },
+            {
+                "name": "2 star",
+                "count": 9000
+            },
+            {
+                "name": "3 star",
+                "count": 20000
+            },
+            {
+                "name": "4 star",
+                "count": 110000
+            },
+            {
+                "name": "5 star",
+                "count": 269000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+        "title": "WeatherPro+ - Weather",
+        "companyName": "SkyTrack Systems",
+        "id": 16,
+        "description": "WeatherPro+ delivers accurate weather forecasts, radar maps, and live alerts. Stay informed about temperature, precipitation, and severe weather events with an intuitive interface and real-time notifications.",
+        "size": 78000000,
+        "reviews": 550000,
+        "ratingAvg": 4.5,
+        "downloads": 22000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20000
+            },
+            {
+                "name": "2 star",
+                "count": 15000
+            },
+            {
+                "name": "3 star",
+                "count": 30000
+            },
+            {
+                "name": "4 star",
+                "count": 120000
+            },
+            {
+                "name": "5 star",
+                "count": 365000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/25/25694.png",
+        "title": "DriveGuard - Car Monitor",
+        "companyName": "AutoSecure",
+        "id": 17,
+        "description": "DriveGuard monitors your car’s health, tracks trips, and sends maintenance alerts. Keep your vehicle in top condition with diagnostic reports, fuel usage statistics, and real-time notifications for peace of mind.",
+        "size": 125000000,
+        "reviews": 310000,
+        "ratingAvg": 4.3,
+        "downloads": 6000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 8000
+            },
+            {
+                "name": "2 star",
+                "count": 10000
+            },
+            {
+                "name": "3 star",
+                "count": 30000
+            },
+            {
+                "name": "4 star",
+                "count": 90000
+            },
+            {
+                "name": "5 star",
+                "count": 172000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/287/287221.png",
+        "title": "HomeChef - Recipes",
+        "companyName": "FlavorHouse",
+        "id": 18,
+        "description": "HomeChef lets you browse recipes, plan meals, and create grocery lists instantly. Save favorites, explore trending dishes, and get step-by-step cooking instructions with timers and tips for every skill level.",
+        "size": 62000000,
+        "reviews": 240000,
+        "ratingAvg": 4.8,
+        "downloads": 7000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4000
+            },
+            {
+                "name": "2 star",
+                "count": 3000
+            },
+            {
+                "name": "3 star",
+                "count": 10000
+            },
+            {
+                "name": "4 star",
+                "count": 40000
+            },
+            {
+                "name": "5 star",
+                "count": 183000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/1384/1384065.png",
+        "title": "ChatLine - Messaging",
+        "companyName": "WaveConnect",
+        "id": 19,
+        "description": "ChatLine is a secure real-time messaging app with encrypted chats and voice notes. Connect with friends and family, share media, and enjoy seamless communication with a simple and intuitive interface.",
+        "size": 98000000,
+        "reviews": 780000,
+        "ratingAvg": 4.4,
+        "downloads": 40000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 18000
+            },
+            {
+                "name": "2 star",
+                "count": 15000
+            },
+            {
+                "name": "3 star",
+                "count": 40000
+            },
+            {
+                "name": "4 star",
+                "count": 200000
+            },
+            {
+                "name": "5 star",
+                "count": 507000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/888/888857.png",
+        "title": "Artify - Digital Art",
+        "companyName": "DreamCanvas Labs",
+        "id": 20,
+        "description": "Artify allows you to create and share digital art with brushes, textures, and AI tools. Customize artworks, export in high resolution, and collaborate with artists worldwide to bring your ideas to life.",
+        "size": 150000000,
+        "reviews": 640000,
+        "ratingAvg": 4.7,
+        "downloads": 15000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10000
+            },
+            {
+                "name": "2 star",
+                "count": 9000
+            },
+            {
+                "name": "3 star",
+                "count": 25000
+            },
+            {
+                "name": "4 star",
+                "count": 100000
+            },
+            {
+                "name": "5 star",
+                "count": 496000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/906/906343.png",
+        "title": "CryptoTrack - Crypto Monitor",
+        "companyName": "BitLens Technologies",
+        "id": 21,
+        "description": "CryptoTrack monitors cryptocurrency prices and trends in real-time. Set alerts, track portfolios, and analyze market movements with charts and insights to make informed trading decisions.",
+        "size": 102000000,
+        "reviews": 450000,
+        "ratingAvg": 4.5,
+        "downloads": 10000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 12000
+            },
+            {
+                "name": "2 star",
+                "count": 9000
+            },
+            {
+                "name": "3 star",
+                "count": 30000
+            },
+            {
+                "name": "4 star",
+                "count": 120000
+            },
+            {
+                "name": "5 star",
+                "count": 279000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/906/906347.png",
+        "title": "Newsly - News Feed",
+        "companyName": "GlobalPulse Media",
+        "id": 22,
+        "description": "Newsly provides personalized news feeds with trending topics and instant updates. Stay informed with articles, videos, and breaking news from reliable sources, curated for your interests.",
+        "size": 78000000,
+        "reviews": 320000,
+        "ratingAvg": 4.3,
+        "downloads": 9000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 8000
+            },
+            {
+                "name": "2 star",
+                "count": 6000
+            },
+            {
+                "name": "3 star",
+                "count": 25000
+            },
+            {
+                "name": "4 star",
+                "count": 100000
+            },
+            {
+                "name": "5 star",
+                "count": 181000
+            }
+        ]
+    },
+    {
+        "image": "https://cdn-icons-png.flaticon.com/512/906/906348.png",
+        "title": "DocLink - Health App",
+        "companyName": "HealthNet Global",
+        "id": 23,
+        "description": "DocLink allows you to book doctor appointments and get online consultations 24/7. Access medical records, receive reminders, and communicate with healthcare professionals securely and efficiently.",
+        "size": 89000000,
+        "reviews": 270000,
+        "ratingAvg": 4.6,
+        "downloads": 8000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 5000
+            },
+            {
+                "name": "2 star",
+                "count": 4000
+            },
+            {
+                "name": "3 star",
+                "count": 20000
+            },
+            {
+                "name": "4 star",
+                "count": 90000
+            },
+            {
+                "name": "5 star",
+                "count": 147000
+            }
+        ]
+    }
+]

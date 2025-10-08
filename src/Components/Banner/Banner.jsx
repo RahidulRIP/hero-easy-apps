@@ -37,7 +37,7 @@ const Banner = () => {
                             <h5>21% more than last month</h5>
                         </div>
                         <div className="text-white md:space-y-4">
-                            <h5>Total Reviews</h5>
+                            <h5>Total Reviews</h5> 
                             <h1 className="text-6xl font-extrabold">906K</h1>
                             <h5>46% more than last month</h5>
                         </div>
