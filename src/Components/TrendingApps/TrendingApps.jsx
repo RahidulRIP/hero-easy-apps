@@ -3,13 +3,13 @@ import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 
 const TrendingApps = ({ data }) => {
-    const { companyName, description, downloads, id, image, ratings, reviews, size, title, ratingAvg } = data;
+    const {  downloads, id, image, title, ratingAvg } = data;
     // console.log(data)
     const navigate = useNavigate();
     return (
-        <div onClick={() => navigate(`/cardDetails/${id}`, { state: data })}>
+        <div  onClick={() => navigate(`/cardDetails/${id}`, { state: data })}>
 
-            <div className="card bg-base-100 shadow-sm p-5">
+            <div className="card bg-base-100 shadow-sm p-5 cursor-pointer">
                 <figure>
                     <img
                         className="rounded-lg bg-[#d9d9d9] p-5"

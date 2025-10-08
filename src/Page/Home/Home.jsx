@@ -2,6 +2,7 @@ import { Link, useOutletContext } from "react-router";
 import Banner from "../../Components/Banner/Banner";
 import TrendingApps from "../../Components/TrendingApps/TrendingApps";
 import Container from "../../Components/Container/Container";
+import VerticalChart from "../../Components/TrendingApps/VerticalChart";
 
 const Home = () => {
 
