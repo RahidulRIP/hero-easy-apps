@@ -42,7 +42,7 @@ const Apps = () => {
                 <div className="flex items-center justify-between pb-3.5 p-2.5">
                     <h2 className="text-lg md:text-2xl font-semibold">({appsData.length}) Apps Found</h2>
                     <div className="">
-                        <label className="input focus-within::outline-none  md:w-[400px]">
+                        <label className="input md:w-[400px]">
                             <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <g
                                     strokeLinejoin="round"

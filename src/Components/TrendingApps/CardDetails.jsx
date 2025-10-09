@@ -4,6 +4,7 @@ import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewsIcon from '../../assets/icon-review.png';
 import VerticalChart from "./VerticalChart";
+import { setId } from "../../Utilities/localStorage";
 
 
 
@@ -12,7 +13,12 @@ const CardDetails = () => {
     const detailsData = useLocation();
 
     const data = detailsData?.state;
-    const { companyName, description, downloads, image, ratings, reviews, size, title, ratingAvg } = data;
+    const { companyName, description, downloads, image, ratings, reviews, size, title, ratingAvg, id } = data;
+
+    const handleInstallButton = (id) => {
+        console.log(id)
+        setId(id);
+    }
 
     return (
         <div className="bg-[#f5f5f5] pt-10 md:pt-20">
@@ -49,7 +55,7 @@ const CardDetails = () => {
                             </div>
                         </div>
                         <div className="card-actions mt-8 pb-2.5">
-                            <button className="btn text-white bg-[#00d293]">Install Now <span> ({size / 1000}KB)</span></button>
+                            <button onClick={() => handleInstallButton(id)} className="btn text-white bg-[#00d293]">Install Now <span> ({size / 1000}KB)</span></button>
                         </div>
                     </div>
 
