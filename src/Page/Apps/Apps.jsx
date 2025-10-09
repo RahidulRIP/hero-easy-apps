@@ -3,34 +3,32 @@ import TrendingApps from "../../Components/TrendingApps/TrendingApps";
 import Container from "../../Components/Container/Container";
 import { useState } from "react";
 import NoAppsFound from "./NoAppsFound";
+import Loading from "../../Components/Loading/Loading";
 
 const Apps = () => {
     const { appsData } = useOutletContext();
 
     const [searchValue, setSearchValue] = useState('');
+    const [loading, setLoading] = useState(false)
 
 
 
     const handleSearch = (e) => {
         e.preventDefault();
-        const searchValue = e.target.value
+        const searchValue = e.target.value;
+        setSearchValue(searchValue);
+        setLoading(true);
 
-        setSearchValue(searchValue)
-
-        // console.log(searchValue)
-    }
-
-
-
+        setTimeout(() => {
+            setLoading(false)
+        }, 500)
+    };
 
 
     const filteredAppsData = appsData.filter(data => data?.title.toLowerCase().includes(searchValue.toLowerCase()));
 
-    // console.log(filteredAppsData);
-
     const emptySearch = filteredAppsData.length === 0;
 
-    // console.log(emptySearch)
     return (
         <div className="bg-[#f5f5f5] pb-10 md:pb-20">
             <Container>
@@ -67,14 +65,15 @@ const Apps = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 p-2.5">
                     {
-                        filteredAppsData.map(data => <TrendingApps key={data.id} data={data}></TrendingApps>)
+                        loading ? '' : filteredAppsData.map(data => <TrendingApps key={data.id} data={data}></TrendingApps>)
+
                     }
                 </div>
 
 
             </Container>
             {
-                emptySearch && <NoAppsFound />
+                loading ? <Loading /> : emptySearch && <NoAppsFound />
             }
         </div>
     );

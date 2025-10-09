@@ -7,14 +7,13 @@ import { useState } from "react";
 const Installation = () => {
 
     const [sortOrder, setSortOrder] = useState();
-
-    const { appsData } = useOutletContext();
-    const LSIds = getId();
-    const installedApps = appsData.filter(app => LSIds.includes(app.id));
+    const { appsData } = useOutletContext() || {};
+    const LSIds = getId() || [];
+    const installedApps = (appsData || []).filter(app => LSIds.includes(app.id));
 
     const sortedApps = installedApps.slice().sort((a, b) =>
-        sortOrder === 'High-Low' ? b.size - a.size :
-            sortOrder === 'Low-High' ? a.size - b.size :
+        sortOrder === 'High-Low' ? b.downloads - a.downloads :
+            sortOrder === 'Low-High' ? a.downloads - b.downloads :
                 0
     );
 
@@ -22,6 +21,8 @@ const Installation = () => {
         const shortValue = e.target.value;
         setSortOrder(shortValue)
     }
+
+
     return (
         <div>
             <Container>
@@ -33,10 +34,10 @@ const Installation = () => {
 
                     <div>
                         <div className="flex items-center justify-between pb-3.5 p-2.5">
-                            <h2>Apps Found</h2>
+                            <h2 className="text-lg font-medium">Apps Found</h2>
                             <div>
-                                <select onChange={handleShort} value={sortOrder} defaultValue="Sort by Size" className="select appearance-none">
-                                    <option disabled={true}>Sort by Size</option>
+                                <select onChange={handleShort} value={sortOrder} defaultValue="Sort by downloads" className="select appearance-none">
+                                    <option disabled={true}>Sort by downloads</option>
                                     <option>Low-High</option>
                                     <option>High-Low</option>
                                 </select>

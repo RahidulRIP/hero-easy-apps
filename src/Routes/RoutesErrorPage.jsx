@@ -8,7 +8,7 @@ const RoutesErrorPage = () => {
                 <MdErrorOutline size={65} className="text-red-600" />
                 <h2 className="text-6xl font-bold">404</h2>
                 <h5 className="text-2xl font-medium">Not Found</h5>
-                <p>Sorry,the page you are looking for might be removed,renamed,or is temporarily unavailable </p>
+                <p className="text-center">Sorry,the page you are looking for might be removed,renamed,or is temporarily unavailable </p>
                 <div className="flex items-center justify-center gap-3.5">
                     <Link to={'/'}><button className="btn bg-black text-white text-lg">Back to Home</button></Link>
                     <Link to={'/apps'}><button className="btn btn-dash text-lg">Browse Apps</button></Link>

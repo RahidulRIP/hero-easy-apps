@@ -39,7 +39,7 @@ const Navbar = () => {
                     </div>
                     <div className="navbar-end">
 
-                        <Link className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub size={20} />Contribute</Link>
+                        <Link to={'https://github.com/RahidulRIP/hero-easy-apps'} className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub size={20} />Contribute</Link>
                     </div>
                 </div>
             </Container>

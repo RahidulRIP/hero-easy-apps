@@ -1,8 +1,28 @@
+// import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
+import { removeId } from '../../Utilities/localStorage';
 
 const InstallationCard = ({ appData }) => {
-    const { downloads, image, size, title, ratingAvg } = appData;
+
+    // const [LSIds, setLSIds] = useState(getId());
+
+    const [visible, setVisible] = useState(true); // track visibility
+
+    const { downloads, image, size, title, ratingAvg, id } = appData;
+
+
+
+
+    const handleUninstall = (id) => {
+        removeId(id);
+        setVisible(false);
+
+    }
+
+    if (!visible) return null;
+
     return (
         <div className='flex items-center justify-between bg-[#ffffff] rounded-sm p-7'>
             <div className='flex flex-col md:flex-row md:items-center gap-5'>
@@ -24,7 +44,7 @@ const InstallationCard = ({ appData }) => {
                     </div>
                 </div>
             </div>
-            <button className='btn text-white bg-[#00D390]'>Uninstall</button>
+            <button onClick={() => handleUninstall(id)} className='btn text-white bg-[#00D390]'>Uninstall</button>
         </div>
     );
 };

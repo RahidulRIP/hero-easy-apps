@@ -4,21 +4,34 @@ import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewsIcon from '../../assets/icon-review.png';
 import VerticalChart from "./VerticalChart";
-import { setId } from "../../Utilities/localStorage";
+import { getId, setId } from "../../Utilities/localStorage";
+import { useEffect, useState } from "react";
 
 
 
 const CardDetails = () => {
+
+    const [installButtonText, setInstallButtonText] = useState(false);
+    const [LSIds, setLSIds] = useState(getId());
+
 
     const detailsData = useLocation();
 
     const data = detailsData?.state;
     const { companyName, description, downloads, image, ratings, reviews, size, title, ratingAvg, id } = data;
 
+
     const handleInstallButton = (id) => {
-        console.log(id)
         setId(id);
-    }
+        setLSIds(getId());
+    };
+
+    useEffect(() => {
+        if (LSIds.includes(data?.id)) {
+            setInstallButtonText(true);
+        }
+    }, [data, LSIds])
+
 
     return (
         <div className="bg-[#f5f5f5] pt-10 md:pt-20">
@@ -26,7 +39,7 @@ const CardDetails = () => {
                 <div className="flex flex-col md:flex-row  gap-10   shadow-sm ">
                     <div className="p-2.5 md:p-10">
                         <img
-                            className="md: rounded-lg bg-white p-4"
+                            className="rounded-lg bg-white p-4"
                             src={image}
                             alt="Shoes" />
                     </div>
@@ -55,7 +68,12 @@ const CardDetails = () => {
                             </div>
                         </div>
                         <div className="card-actions mt-8 pb-2.5">
-                            <button onClick={() => handleInstallButton(id)} className="btn text-white bg-[#00d293]">Install Now <span> ({size / 1000}KB)</span></button>
+                            <button disabled={installButtonText} onClick={() => handleInstallButton(id)} className="btn text-white bg-[#00d293] cursor-pointer">
+                                {
+                                    installButtonText ? `Installed` : `Install Now (${size / 1000}KB)`
+
+                                }
+                            </button>
                         </div>
                     </div>
 
