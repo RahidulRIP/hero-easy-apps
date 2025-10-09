@@ -27,7 +27,7 @@ const Apps = () => {
 
     const filteredAppsData = appsData.filter(data => data?.title.toLowerCase().includes(searchValue.toLowerCase()));
 
-    const emptySearch = filteredAppsData.length === 0;
+    const emptySearch = filteredAppsData?.length === 0;
 
     return (
         <div className="bg-[#f5f5f5] pb-10 md:pb-20">

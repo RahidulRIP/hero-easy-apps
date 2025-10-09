@@ -5,14 +5,11 @@ import ratingIcon from '../../assets/icon-ratings.png';
 import { removeId } from '../../Utilities/localStorage';
 
 const InstallationCard = ({ appData }) => {
-
-    // const [LSIds, setLSIds] = useState(getId());
+    
 
     const [visible, setVisible] = useState(true); // track visibility
 
     const { downloads, image, size, title, ratingAvg, id } = appData;
-
-
 
 
     const handleUninstall = (id) => {
