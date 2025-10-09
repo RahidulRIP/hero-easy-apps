@@ -24,7 +24,7 @@ const Home = () => {
                     </div>
                 </Container>
                 <div className="text-center mb-10 md:mb-20 mt-5 md:mt-10">
-                    <Link>
+                    <Link to={'apps'}>
                         <button className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-8">Show All</button>
                     </Link>
                 </div>
@@ -33,4 +33,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Home;        
